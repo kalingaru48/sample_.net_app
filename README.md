@@ -1,0 +1,2 @@
+# GearsMonoRepoSample.Core
+GearsMonoRepoSample.Core
