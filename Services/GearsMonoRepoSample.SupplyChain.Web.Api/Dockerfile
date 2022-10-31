@@ -5,7 +5,6 @@ WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
-RUN test
 # FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 # WORKDIR /src
 # COPY ["GearsMonoRepoSample.SupplyChain.Web.Api.csproj", "GearsMonoRepoSample.SupplyChain.Web.Api/"]
