@@ -32,4 +32,9 @@ for monoService in monoServices:
             if x not in changedServices:
                 changedServices.append(x)
 
-json.dump(changedServices, sys.stdout)
+#json.dump(changedServices, sys.stdout)
+json.dump([{"build_folder": "Services/GearsMonoRepoSample.Finance.Web.Api", "unitTest_folder": "Tests/Unit/GearsMonoRepoSample.Finance.Web.Api", "acceptanceTest_folder": "Tests/Acceptance/GearsMonoRepoSam
+ple.Finance.Web.Api", "image_name": "gearsmonoreposample-finance-web-api"}, {"build_folder": "Services/GearsMonoRepoSample.Manfucaturing.Web.Api", "unitTest_folder": "Tests/Unit/GearsMonoRepoSam
+ple.Manfucaturing.Web.Api", "acceptanceTest_folder": "Tests/Acceptance/GearsMonoRepoSample.Manfucaturing.Web.Api", "image_name": "gearsmonoreposample-manfucaturing-web-api"}, {"build_folder": "S
+ervices/GearsMonoRepoSample.SupplyChain.Web.Api", "unitTest_folder": "Tests/Unit/GearsMonoRepoSample.SupplyChain.Web.Api", "acceptanceTest_folder": "Tests/Acceptance/GearsMonoRepoSample.SupplyCh
+ain.Web.Api", "image_name": "gearsmonoreposample-supplychain-web-api"}], sys.stdout)
