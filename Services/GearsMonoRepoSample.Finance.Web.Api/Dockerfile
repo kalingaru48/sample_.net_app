@@ -20,3 +20,6 @@ EXPOSE 443
 # WORKDIR /app
 # COPY --from=publish /app/publish .
 # ENTRYPOINT ["dotnet", "GearsMonoRepoSample.Finance.Web.Api.dll"]
+
+
+#test
