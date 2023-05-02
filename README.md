@@ -1,9 +1,7 @@
 # GearsMonoRepoSample.Core
 GearsMonoRepoSample.Core
 test11111
-
-changes
-
+changes 1
 change 2
-
 change 3
+fix change
