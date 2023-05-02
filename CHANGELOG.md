@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/kalingaru48/sample_.net_app/compare/v1.1.0...v1.2.0) (2023-05-02)
+
+
+### Features
+
+* test ([0d17bfb](https://github.com/kalingaru48/sample_.net_app/commit/0d17bfb239a2fe1a4f404c590d425f6473ad85ce))
+
 ## [1.1.0](https://github.com/kalingaru48/sample_.net_app/compare/v1.0.0...v1.1.0) (2023-05-02)
 
 
