@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.3.0](https://github.com/kalingaru48/sample_.net_app/compare/v1.2.0...v1.3.0) (2023-05-02)
+
+
+### Features
+
+* Test realease2 ([#52](https://github.com/kalingaru48/sample_.net_app/issues/52)) ([82b54ef](https://github.com/kalingaru48/sample_.net_app/commit/82b54ef95d45e78d66045fad46e902ea8151d952))
+* testing new feature 1 ([#55](https://github.com/kalingaru48/sample_.net_app/issues/55)) ([731d788](https://github.com/kalingaru48/sample_.net_app/commit/731d788d1dd1991d3fd43b9ec29b1509fe77f299))
+
+
+### Bug Fixes
+
+* Test realease2 ([#54](https://github.com/kalingaru48/sample_.net_app/issues/54)) ([6648643](https://github.com/kalingaru48/sample_.net_app/commit/664864341d58a30124efbc223760574692c016f3))
+
 ## [1.2.0](https://github.com/kalingaru48/sample_.net_app/compare/v1.1.0...v1.2.0) (2023-05-02)
 
 
