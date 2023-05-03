@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/kalingaru48/sample_.net_app/compare/v1.5.0...v1.5.1) (2023-05-03)
+
+
+### Bug Fixes
+
+* Test release ([#62](https://github.com/kalingaru48/sample_.net_app/issues/62)) ([cdb5b90](https://github.com/kalingaru48/sample_.net_app/commit/cdb5b9037f7ea8af7859a55ced834935bff7f1e8))
+
 ## [1.5.0](https://github.com/kalingaru48/sample_.net_app/compare/v1.4.0...v1.5.0) (2023-05-03)
 
 
