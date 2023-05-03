@@ -15,8 +15,9 @@ jobs:
     steps:
     - name: Check PR title
       run: |
-        pr_title="${{ github.event.pull_request.title }}"
-        PR_TITLE_RE="^(?=.{1,90}$)(?:build|feat|ci|chore|docs|fix|perf|refactor|revert|style|test|wip)(?:\(.+\))*(?::).{4,}(?:\s\[OCH-\d+\])(?:#\d+)*(?<![\.\s])$"
+        #pr_title="${{ github.event.pull_request.title }}"
+        pr_title="fix: subject [OCH-123]"
+        pattern="^((feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert)(\([a-zA-Z0-9\s_-]+\))?!?:\s[^\s].*?\s\[[A-Z]+-\d+\].*)$"
         SKIP_LABEL="autorelease: pending"
         pr_labels="${{ toJSON(github.event.pull_request.labels) }}"
         
@@ -25,8 +26,9 @@ jobs:
           exit 0
         fi
 
-        if [[ ! ${pr_title} =~ ${PR_TITLE_RE} ]]; then
-          echo "error: invalid PR title"
-          echo "Valid PR title is required to match pattern: ^(?=.{1,90}$)(?:build|feat|ci|chore|docs|fix|perf|refactor|revert|style|test|wip)(?:\(.+\))*(?::).{4,}(?:\s\[OCH-\d+\])(?:#\d+)*(?<![\.\s])$"
+        if [[ ! ${pr_title} =~ ${pattern} ]]; then
+          echo -e "\033[31mInvalid PR title\033[0m"
+          echo "Please follow the Conventional Commits convention and append a JIRA ID, e.g: 'feat(scope): subject [OCH-123]' or 'fix: subject [OCH-123]'"
+          echo -e "\033[90mmore info: https://www.conventionalcommits.org/en/v1.0.0/\033[0m"
           exit 1
         fi
