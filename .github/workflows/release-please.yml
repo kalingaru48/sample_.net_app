@@ -19,10 +19,10 @@ jobs:
           token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
           pull-request-header: ":robot: *beep* *boop* I have created a release"
           extra-files: |
-          [
-            {
-              "type": "xml",
-              "path": "Services/GearsMonoRepoSample.Finance.Web.Api/GearsMonoRepoSample.SupplyChain.Web.Api.csproj",
-              "xpath": "//Project/PropertyGroup/Version"
-            }
-          ]
+            [
+              {
+                "type": "xml",
+                "path": "Services/GearsMonoRepoSample.Finance.Web.Api/GearsMonoRepoSample.SupplyChain.Web.Api.csproj",
+                "xpath": "//Project/PropertyGroup/Version"
+              }
+            ]
