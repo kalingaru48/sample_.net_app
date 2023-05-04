@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.6.0](https://github.com/kalingaru48/sample_.net_app/compare/v1.5.1...v1.6.0) (2023-05-04)
+
+
+### Features
+
+* adding a feature as change 9 ([#64](https://github.com/kalingaru48/sample_.net_app/issues/64)) ([11a6051](https://github.com/kalingaru48/sample_.net_app/commit/11a605124b08a28b871a94a00834d609379450f6))
+* adding pull request title rule ([#67](https://github.com/kalingaru48/sample_.net_app/issues/67)) ([5750242](https://github.com/kalingaru48/sample_.net_app/commit/5750242e36bddcd8153f3d4ca4c39d0ff10c7888))
+* great feature [O30-123] ([#70](https://github.com/kalingaru48/sample_.net_app/issues/70)) ([b225ae8](https://github.com/kalingaru48/sample_.net_app/commit/b225ae8e0f8f142b334ffcb4cc167068e5f6a2b9))
+* subject [O30-1234] ([#72](https://github.com/kalingaru48/sample_.net_app/issues/72)) ([e684369](https://github.com/kalingaru48/sample_.net_app/commit/e6843694e767b24d0d6c8cac44bf27f98956fafd))
+
+
+### Bug Fixes
+
+* change 8 ([#66](https://github.com/kalingaru48/sample_.net_app/issues/66)) ([7b5a569](https://github.com/kalingaru48/sample_.net_app/commit/7b5a569d059d14b881e4daf875d92d93d6bc4937))
+* label checker in PR validation [O30-1234] ([#71](https://github.com/kalingaru48/sample_.net_app/issues/71)) ([2e05029](https://github.com/kalingaru48/sample_.net_app/commit/2e050297144c1e90fe44da864af5e74bde6dcaec))
+
 ## [1.5.1](https://github.com/kalingaru48/sample_.net_app/compare/v1.5.0...v1.5.1) (2023-05-03)
 
 
