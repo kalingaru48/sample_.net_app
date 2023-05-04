@@ -22,7 +22,7 @@ jobs:
             [
               {
                 "type": "xml",
-                "path": "Services/GearsMonoRepoSample.Finance.Web.Api/GearsMonoRepoSample.SupplyChain.Web.Api.csproj",
+                "path": "Services/GearsMonoRepoSample.Finance.Web.Api/GearsMonoRepoSample.Finance.Web.Api.csproj",
                 "xpath": "//Project/PropertyGroup/Version"
               }
             ]
