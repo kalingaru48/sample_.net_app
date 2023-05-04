@@ -16,7 +16,7 @@ jobs:
       - name: Check PR title
         run: |
           SKIP_LABEL="autorelease: pending"
-          pr_labels="${{ toJSON(github.event.pull_request.labels) }}"
+          pr_labels='${{ toJSON(github.event.pull_request.labels) }}'
 
           if [[ ${pr_labels} == *"${SKIP_LABEL}"* ]]; then
             echo "Skipping PR title validation due to the presence of the '${SKIP_LABEL}' label"
