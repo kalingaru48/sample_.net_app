@@ -1,5 +1,35 @@
 # Changelog
 
+## [1.7.0](https://github.com/kalingaru48/sample_.net_app/compare/v1.6.0...v1.7.0) (2023-05-05)
+
+
+### Features
+
+* test [O30-123] ([#80](https://github.com/kalingaru48/sample_.net_app/issues/80)) ([eabca54](https://github.com/kalingaru48/sample_.net_app/commit/eabca548a9735b8d34a0a5f5ec44adc74c3953fb))
+* test [O30-123] ([#85](https://github.com/kalingaru48/sample_.net_app/issues/85)) ([a48e292](https://github.com/kalingaru48/sample_.net_app/commit/a48e292c5126d32a8f3a61fb419937b0af0ca8a3))
+* test [O30-123] ([#86](https://github.com/kalingaru48/sample_.net_app/issues/86)) ([8ad8463](https://github.com/kalingaru48/sample_.net_app/commit/8ad8463524e9469b89bda8d4df4f1c479cf081ce))
+* test [O30-123] ([#87](https://github.com/kalingaru48/sample_.net_app/issues/87)) ([23a7a3a](https://github.com/kalingaru48/sample_.net_app/commit/23a7a3a0090379437b52ba1abbdd312b6fbd4464))
+* test [O30-123] ([#88](https://github.com/kalingaru48/sample_.net_app/issues/88)) ([e928e78](https://github.com/kalingaru48/sample_.net_app/commit/e928e7847c63fa66a7af27c27e5c6e3a7ed70a81))
+* test [O30-123] ([#89](https://github.com/kalingaru48/sample_.net_app/issues/89)) ([d2bacfa](https://github.com/kalingaru48/sample_.net_app/commit/d2bacfaf1b4229cf0cd962a0c14b5fdc4e1de89f))
+* test [O30-123] ([#90](https://github.com/kalingaru48/sample_.net_app/issues/90)) ([37b7375](https://github.com/kalingaru48/sample_.net_app/commit/37b73757e1b94c24fc900e253635da353f4f57ad))
+* test [O30-123] ([#91](https://github.com/kalingaru48/sample_.net_app/issues/91)) ([7dac644](https://github.com/kalingaru48/sample_.net_app/commit/7dac644ecf565661f1add007bd34122dddfc5ccc))
+* test [O30-123] ([#92](https://github.com/kalingaru48/sample_.net_app/issues/92)) ([19ab8fe](https://github.com/kalingaru48/sample_.net_app/commit/19ab8fe240bfc025741f91ba2de19ae8b590e5a3))
+* test [O30-123] ([#93](https://github.com/kalingaru48/sample_.net_app/issues/93)) ([69084e2](https://github.com/kalingaru48/sample_.net_app/commit/69084e26f9ae74dca68763b68f2621b5f91ad980))
+* test [O30-123] ([#94](https://github.com/kalingaru48/sample_.net_app/issues/94)) ([74bc674](https://github.com/kalingaru48/sample_.net_app/commit/74bc674e421351787511865d01fd307d6d0b6c1f))
+
+
+### Bug Fixes
+
+* fix for filepath [O30-123] ([#78](https://github.com/kalingaru48/sample_.net_app/issues/78)) ([24781eb](https://github.com/kalingaru48/sample_.net_app/commit/24781ebc5fe0c483cecb689512028407c73921e2))
+* teat fix [O30-234] ([#74](https://github.com/kalingaru48/sample_.net_app/issues/74)) ([dbd1265](https://github.com/kalingaru48/sample_.net_app/commit/dbd1265a319bb183dd093ddf6787d08de9242581))
+* test [O30-123] ([#75](https://github.com/kalingaru48/sample_.net_app/issues/75)) ([26f0e37](https://github.com/kalingaru48/sample_.net_app/commit/26f0e37b6ed5ec6a6f4dcd8289c1d8694c763b22))
+* test [O30-123] ([#77](https://github.com/kalingaru48/sample_.net_app/issues/77)) ([a7f2833](https://github.com/kalingaru48/sample_.net_app/commit/a7f2833d934027d1cfc59bf45372e1caae808ea0))
+* test [O30-123] ([#79](https://github.com/kalingaru48/sample_.net_app/issues/79)) ([7a77a1f](https://github.com/kalingaru48/sample_.net_app/commit/7a77a1f53da2570a065b6748c0731008af0c9a7f))
+* test [O30-123] ([#81](https://github.com/kalingaru48/sample_.net_app/issues/81)) ([6e310d9](https://github.com/kalingaru48/sample_.net_app/commit/6e310d927ad58fd915741032b38137ffe792c98d))
+* test [O30-123] ([#82](https://github.com/kalingaru48/sample_.net_app/issues/82)) ([ff44796](https://github.com/kalingaru48/sample_.net_app/commit/ff44796ef1bdeffd3a17479a6b514f462f1a2caa))
+* test [O30-123] ([#83](https://github.com/kalingaru48/sample_.net_app/issues/83)) ([041fb74](https://github.com/kalingaru48/sample_.net_app/commit/041fb746718fb5fdc1c719295e024138c040c3b8))
+* test [O30-123] ([#84](https://github.com/kalingaru48/sample_.net_app/issues/84)) ([853feec](https://github.com/kalingaru48/sample_.net_app/commit/853feec2b1da862fa2bd7fd0ee3fe9cd6ea1de10))
+
 ## [1.6.0](https://github.com/kalingaru48/sample_.net_app/compare/v1.5.1...v1.6.0) (2023-05-04)
 
 
