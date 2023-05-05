@@ -12,7 +12,17 @@
           "type":"xml",
           "path":"Services/GearsMonoRepoSample.Finance.Web.Api/GearsMonoRepoSample.Finance.Web.Api.csproj",
           "xpath":"//Project/PropertyGroup/Version"
-        }
+        },
+        {
+          "type":"xml",
+          "path":"Services/GearsMonoRepoSample.Manfucaturing.Web.Api/GearsMonoRepoSample.Manfucaturing.Web.Api.csproj",
+          "xpath":"//Project/PropertyGroup/Version"
+        },
+        {
+          "type":"xml",
+          "path":"Services/GearsMonoRepoSample.SupplyChain.Web.Api/GearsMonoRepoSample.SupplyChain.Web.Api.csproj",
+          "xpath":"//Project/PropertyGroup/Version"
+        }                
       ]
     }
   },
