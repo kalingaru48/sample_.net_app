@@ -1,0 +1,30 @@
+name: "[Deploy] Build and Deploy"
+run-name: ${{ format('Manual Deployment to {0}', inputs.target_environment) }}
+on:
+  workflow_dispatch:
+    inputs:
+      target_environment:
+        description: "The target environment to deploy to"
+        required: true
+        default: "Production"
+        type: choice
+        options:
+          - Staging
+          - Production
+
+jobs:
+  build-and-deploy:
+    name: "[Deploy] Deploy"
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Deploy to STAGING
+        if: target_environment == 'Staging'
+        run: |
+          echo "${{ github.event.inputs.version }}"
+        shell: bash
+      - name: Deploy to Production
+        if: target_environment == 'Production'
+        run: |
+          echo "${{ github.event.inputs.version }}"
+        shell: bash
