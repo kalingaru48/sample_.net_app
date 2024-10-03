@@ -19,12 +19,12 @@ jobs:
     timeout-minutes: 20
     steps:
       - name: Deploy to STAGING
-        if: target_environment == 'Staging'
+        if: github.event.inputs.target_environment == 'Staging'
         run: |
           echo "${{ github.event.inputs.version }}"
         shell: bash
       - name: Deploy to Production
-        if: target_environment == 'Production'
+        if: github.event.inputs.target_environment == 'Production'
         run: |
           echo "${{ github.event.inputs.version }}"
         shell: bash
