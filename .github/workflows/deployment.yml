@@ -21,10 +21,10 @@ jobs:
       - name: Deploy to STAGING
         if: github.event.inputs.target_environment == 'Staging'
         run: |
-          echo "${{ github.event.inputs }}"
+          echo "${{ toJson(github.event.inputs) }}"
         shell: bash
       - name: Deploy to Production
         if: github.event.inputs.target_environment == 'Production'
         run: |
-          echo "${{ github.event.inputs }}"
+          echo "${{ toJson(github.event) }}"
         shell: bash
