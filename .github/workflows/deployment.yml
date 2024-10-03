@@ -21,10 +21,10 @@ jobs:
       - name: Deploy to STAGING
         if: target_environment == 'Staging'
         run: |
-          echo "${{ github.event.inputs.version }}"
+          echo "${{ github.event.inputs }}"
         shell: bash
       - name: Deploy to Production
         if: target_environment == 'Production'
         run: |
-          echo "${{ github.event.inputs.version }}"
+          echo "${{ github.event.inputs }}"
         shell: bash
