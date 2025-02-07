@@ -17,13 +17,8 @@ on:
         default: "1.0.0"
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-    
   deploy:
+
     name: "[Deploy] Deploy"
     runs-on: ubuntu-latest
     timeout-minutes: 20
@@ -38,7 +33,10 @@ jobs:
       #   run: |
       #     echo "${GITHUB_REF#refs/tags/}"
       #   shell: bash
-
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: "main"
       - name: Create Sentry release
         uses: getsentry/action-release@v1
         env:
