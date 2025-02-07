@@ -36,7 +36,7 @@ jobs:
           SENTRY_ORG: kalinga-k9
           SENTRY_PROJECT: dotnet-aspnetcore
         with:
-          environment: ${{ env.APP_ENV }}
-          version: ${{ env.APP_VERSION }}
+          environment: "production"
+          version: v1.0.0
           ignore_missing: true
           ignore_empty: true
