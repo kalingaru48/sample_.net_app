@@ -18,15 +18,25 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - name: Deploy to STAGING
-        if: github.event.inputs.target_environment == 'Staging'
-        run: |
-          echo "${GITHUB_REF#refs/tags/}"
-        shell: bash
-      - name: Deploy to Production
-        if: github.event.inputs.target_environment == 'Production'
-        run: |
-          echo "${GITHUB_REF#refs/tags/}"
-        shell: bash
+      # - name: Deploy to STAGING
+      #   if: github.event.inputs.target_environment == 'Staging'
+      #   run: |
+      #     echo "${GITHUB_REF#refs/tags/}"
+      #   shell: bash
+      # - name: Deploy to Production
+      #   if: github.event.inputs.target_environment == 'Production'
+      #   run: |
+      #     echo "${GITHUB_REF#refs/tags/}"
+      #   shell: bash
 
-
+      - name: Create Sentry release
+        uses: getsentry/action-release@v1
+        env:
+          SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
+          SENTRY_ORG: kalinga-k9
+          SENTRY_PROJECT: dotnet-aspnetcore
+        with:
+          environment: ${{ env.APP_ENV }}
+          version: ${{ env.APP_VERSION }}
+          ignore_missing: true
+          ignore_empty: true
